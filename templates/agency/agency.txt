@@ -1,0 +1,7 @@
+/*
+Name: Agency
+Author: MaxFoundry 
+Description: 
+Textdomain: maxinbound
+Template: welcomemat-standard
+*/

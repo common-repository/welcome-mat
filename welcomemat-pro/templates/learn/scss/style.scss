@@ -1,0 +1,73 @@
+@import "fullscreen";
+
+.mib {
+
+	$font-family: "Roboto";
+
+	.background {
+		background-position: 0% 0%;
+		background-size: auto;
+
+	}
+
+	.subscription {
+		width: 80%;
+		top: 45%;
+	}
+
+	.mainheading{
+	  font-family: $font-family;
+	  font-size: 75px;
+	  color: #fff;
+	  line-height: 1.029;
+	  text-align: center;
+	  margin-bottom: 30px;
+	  font-weight: 700;
+	}
+	.subheading{
+		font-family: $font-family;
+		font-size: 25px;
+		color: #fff;
+		line-height: 1.1;
+		text-align: center;
+		margin: 0 auto 30px;
+		//margin-bottom: 30px;
+		//width: 80%;
+	}
+
+
+	 .button{
+		border: 0;
+		max-width: 300px;
+		line-height:1;
+		padding: 25px;
+		margin-right: 2%;
+		font-size: 18px;
+		font-family: $font-family;
+		color: #fff;
+		display: block;
+		margin: 0 auto;
+		vertical-align: middle;
+		text-decoration: none;
+		text-align: center;
+		@include transition(all,250ms,ease);
+
+	}
+
+	 .button.button-agree{
+		background-color: #28a1dd;
+	}
+	 .button.button-agree:hover{
+	  background-color: #2280af;
+	}
+
+	.subscription-arrow
+	{
+
+
+		.arrow_icon	{
+			color: #fff;
+			border-color: transparent;
+		}
+	}
+}

@@ -1,0 +1,87 @@
+@import "fullscreen"; 
+
+.mib {
+
+	$font-family: 'Roboto'; 
+
+	.background { 
+		background-color:#000;
+	}
+	.subscription { 
+		top: 40%;
+	}
+
+	.mainheading{
+	  font-size: 30px;
+	//  font-weight: 700;
+	  font-family: $font-family;
+	  color: #fff;
+	 
+	  text-align: center;
+	  text-transform: uppercase;
+	  margin-bottom: 1.1em;
+	  font-weight: 700;
+	}
+	.subheading{
+	  font-size: 40px;
+	  font-family: $font-family;
+	  color: #f5bc00;
+	  line-height: 1.1em;
+	  text-align: center;
+	  margin-bottom: 35px;
+	  font-weight: 400;
+	}
+
+	.subscription-form{
+	  max-width: 480px;
+	  margin: 0 auto 25px;
+	  
+	}
+
+	input, .input {
+	  @include placeholder{ color: #696969; }
+	//  height: 3em;
+	  margin-bottom: 0; 	  
+	  font-family: $font-family;
+	  font-size: 21px;	
+	}
+
+	button
+	{
+		&.button-agree{
+	 	 	background-color: #f5bc00; 
+	  		color: #fff;    
+	  		font-family: $font-family;
+		}
+		&.button-agree:hover{
+			color: #fff;
+			background-color: #e6b103;
+		}
+		&.button-disagree{
+			background-color: #2e3639;
+			color: #fff;
+	  		font-family: $font-family;
+	  		float: right;
+		}
+		&.button-disagree:hover{  
+			color: #fff;
+			background-color: #000;
+		}
+			
+	}
+
+	.subscription-arrow .arrow_icon { 
+	  border-color: #f5bc00;
+	  color: #f5bc00;
+	 } 
+	 
+	 .after-submit {
+		font-family: $font-family; 
+		font-size: 80px;
+		color: #fff;
+		 
+	 
+	}
+
+} // mib
+

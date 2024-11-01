@@ -1,0 +1,8 @@
+/*
+Name: Cover
+Author: MaxFoundry 
+Description: An intro page without any Call to Action buttons or fields
+Textdomain: maxinbound
+Version: 1.0
+
+*/

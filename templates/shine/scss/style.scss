@@ -1,0 +1,105 @@
+
+@import "fullscreen";
+
+$font-family: 'Roboto'; 
+
+.mib {
+
+	.subscription { 
+		top: 45%;
+	
+	}
+	.background {
+		background-color: #ffffff;
+		background-image: none;
+	}
+
+	.mainheading
+	{
+	  font-family: $font-family;
+	  font-size: 70px;
+	  font-weight: 300; 
+	  color: #000;
+	  text-align: center;
+	  margin-bottom: 0.2em;
+	}
+
+	.subheading{
+	  font-family: $font-family; 
+	  font-size: 30px;
+	  color: #000;
+	  text-align: center;
+	  max-width: 480px;
+	  margin: 0 auto;
+	  margin-bottom: 1.5em;
+	  font-weight: 700;
+	}
+
+	.subscription-form{
+	  max-width: 480px;
+	  margin: 0 auto;
+	}
+
+
+	 input{
+	  border-style: solid;
+	  border-width: 1px;
+	  border-color: #9b9b81;
+	  background-color: #fff;
+	  width: 100%;
+//	  outline: none;
+
+	}
+
+	.input {
+	  font-size: 21px;
+	  font-family: "Roboto"; 
+	  color: #000;
+	}
+	
+	
+	button{
+	  font-family: $font-family; 
+	  width: 49%;
+	  height: 57px;
+	 // line-height: 6.6rem;
+	  margin-right: 2%;
+	  font-size: 21px;
+	  font-family: $font-family; 
+	  color: #ffffff;
+	  display: inline-block;
+	  vertical-align: middle;
+	  text-decoration: none;
+	  text-align: center;
+	  
+	  	&.button-agree{
+	  		background-color: #f94d71;    
+		}
+		&.button-agree:hover{
+			background-color: #cd405e;
+		}
+		&.button-disagree {
+			background-color: #2e3639;
+			float: right;
+		}			
+		&.button-disagree:hover{  
+			background-color: #000;
+		}
+	
+	}
+	.subscription .button:last-child{
+		margin-right: 0;
+	}
+
+	.subscription-arrow .arrow_icon { 
+	  border-color: #f94d71;
+	  color: #f94d71;
+	 }
+
+	.after-submit
+	{
+		font-family: $font-family;
+		color: #000;
+	}
+
+}

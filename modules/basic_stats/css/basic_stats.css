@@ -1,0 +1,64 @@
+.stats .loading {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  z-index: 1; }
+.stats .modules .filters {
+  margin-bottom: 10px;
+  display: inline-block; }
+.stats #filter_form {
+  display: inline-block; }
+  .stats #filter_form .filters {
+    float: left;
+    clear: left;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 10px 0; }
+  .stats #filter_form .button {
+    margin: 10px; }
+  .stats #filter_form .filters > * {
+    float: left;
+    margin-right: 20px 10px; }
+  .stats #filter_form label {
+    margin-right: 15px; }
+.stats .load_overlay {
+  display: none;
+  margin: 0 auto;
+  z-index: 100; }
+.stats .basic_stats {
+  position: relative; }
+  .stats .basic_stats .item {
+    width: 10%;
+    display: inline-block;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+    margin-right: 10px; }
+    .stats .basic_stats .item .title {
+      font-size: 12px;
+      text-align: center;
+      display: inline-block;
+      border-bottom: 1px solid #e5e5e5;
+      min-height: 25px;
+      width: 100%;
+      padding-top: 8px; }
+    .stats .basic_stats .item .number {
+      text-align: center;
+      font-size: 35px;
+      line-height: 35px;
+      padding: 8px 0;
+      clear: left;
+      display: inline-block;
+      width: 100%; }
+  .stats .basic_stats.chart {
+    margin: 15px 0;
+    height: 325px; }
+.stats .period_date {
+  float: right;
+  margin-right: 5px;
+  font-size: 12px;
+  font-weight: 700; }
+  .stats .period_date .start:after {
+    content: ' - '; }
+.stats .modules .overview .row.heading span, .stats .modules .overview .row.item span {
+  max-width: 400px; }

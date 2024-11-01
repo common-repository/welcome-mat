@@ -1,0 +1,8 @@
+/*
+Name: Spark
+Author: MaxFoundry 
+Description: Mailing Sign Up
+Textdomain: maxinbound
+Version: 1.0
+Template: welcomemat-standard
+*/

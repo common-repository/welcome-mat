@@ -1,0 +1,25 @@
+<fields>
+<part name="Template"> 
+	<main_heading editor="text" title="Main Heading">
+		<editor type="font" title="Font" /> 
+		<field type="color" title="Text Color" /> 
+	</main_heading>  
+	<sub_heading editor="text" title="Sub Heading" >
+		<editor type="font" title="Font" /> 
+		<field type="color" name="main_color" title="Text Color" /> 
+	</sub_heading> 
+	
+	<background editor="background" title="Background Image" />
+	
+		<cta_link editor="text" title="Submit Button"> 
+			<editor type="link"  title="Destination (link)" />
+			<editor type="font"  title="Font" /> 
+
+			<field type="color"  title="Text Color" /> 
+			<field type="color" name='color_hover' title="Hover" options='pseudo=hover' /> 			
+			<field type="color" name='submit_button_background' scope='background-color' title="Background Color" /> 	
+			<field type="color" name="submit_button_background_hover" title="Hover Color" scope='background-color' options="pseudo=hover" /> 		
+	</cta_link>
+	<arrow editor="icon" title="Arrow Style and Shape"  /> 
+</part>
+</fields>

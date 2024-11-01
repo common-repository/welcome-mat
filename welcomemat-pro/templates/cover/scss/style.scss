@@ -1,0 +1,36 @@
+@import "fullscreen"; 
+
+.mib {
+	
+	$font-family: 'Roboto'; 
+
+
+	.mainheading{
+	  font-family: $font-family;	
+	  font-size: 69px;
+	  color: #fff;
+//	  line-height: 1.029;
+	  text-align: center;
+	  margin-bottom: 30px;
+
+	}
+	.subheading{
+	  font-family: $font-family;	
+	  font-size: 34px;
+	  color: #fff;
+	//  line-height: 1.561;
+	  text-align: center;
+	  margin-bottom: 38px;
+
+	}
+	
+	.subscription-arrow 
+	{
+		.arrow_icon	{
+	
+			color: #ccc;
+			border-color: transparent;
+		}
+	}
+
+}

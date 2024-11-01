@@ -1,0 +1,14 @@
+<fields>
+<part name="Template"> 
+	<main_heading editor="text" title="Main Heading">
+		<editor type="font" title="Font" /> 
+		<field type="color" title="Text Color" /> 
+	</main_heading>  
+	<sub_heading editor="text" title="Sub Heading" >
+		<editor type="font" title="Font" /> 
+		<field type="color" name="main_color" title="Text Color" /> 
+	</sub_heading> 
+	<background editor="image" title="Background Image" />	
+	<arrow editor="icon" title="Arrow"  /> 
+</part> 
+</fields>

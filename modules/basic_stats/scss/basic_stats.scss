@@ -1,0 +1,110 @@
+.stats {
+	.loading { 
+		position: absolute;
+		width: 100%; 
+		height: 100%; 
+		background-color: rgba(255,255,255,0.2); 
+		z-index: 1;
+	}
+	
+	.modules {
+
+		.filters {
+			margin-bottom: 10px;
+			display: inline-block;
+		}
+	}
+	
+	#filter_form { 
+		display: inline-block;
+							
+		.filters { 
+			float: left;
+			clear: left;
+			vertical-align: middle;
+			display: inline-block;
+			margin: 10px 0;
+
+		
+		}
+		.button {
+			margin: 10px;
+		}	
+		.filters > * {
+			float: left;
+			margin-right: 20px 10px;
+		}
+		
+		label { 
+			margin-right: 15px; 
+		}
+	}
+	
+	.load_overlay { 
+		//position: absolute; 
+		//width: ; 
+		//height: 100%;
+		display: none;
+		margin: 0 auto; 
+		z-index: 100;
+	
+	}
+
+	.basic_stats 
+	{
+		position: relative;
+
+		.item { 
+				width: 10%; 
+
+				display: inline-block; 
+				border: 1px solid #e5e5e5; 
+				background-color: #fff; 
+				margin-right: 10px;
+				.title { 
+					font-size: 12px; 
+					text-align: center;
+					display: inline-block; 
+					border-bottom: 1px solid #e5e5e5;
+					min-height: 25px; 
+					width: 100%; 
+					padding-top: 8px;
+				} 
+				.number {
+					text-align: center;  
+					font-size: 35px;
+					line-height: 35px;
+					padding: 8px 0; 
+					clear: left; 
+					display: inline-block;
+					width: 100%;
+				}
+			}
+	
+		&.chart { 
+			margin: 15px 0;
+			height: 325px;
+		}
+
+	}
+
+	.period_date {
+		float: right; 
+		margin-right: 5px;
+		font-size: 12px;
+		font-weight: 700;
+		.start:after {
+			content: ' - '; 
+		}
+	}
+
+	.modules .overview
+	{
+		.row.heading span, .row.item span { 
+			max-width: 400px; 
+		}
+
+
+	}
+
+}

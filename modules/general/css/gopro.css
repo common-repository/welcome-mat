@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700|Titillium+Web");
+.gopro-wrap {
+  width: 85%;
+  padding: 5px;
+  display: inline-block; }
+  .gopro-wrap h3, .gopro-wrap h4 {
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center; }
+  .gopro-wrap h3 {
+    font-size: 26px; }
+  .gopro-wrap h4 {
+    font-size: 22px; }
+  .gopro-wrap p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px; }
+  .gopro-wrap .center {
+    text-align: center; }
+  .gopro-wrap .block {
+    margin: 0 auto;
+    width: 90%;
+    clear: both;
+    padding: 30px 0; }
+    .gopro-wrap .block .image {
+      margin: 0 auto;
+      text-align: center;
+      clear: both; }
+      .gopro-wrap .block .image img {
+        width: auto;
+        max-width: 100%; }
+    .gopro-wrap .block .item {
+      margin-right: 3%;
+      float: left;
+      width: 45%; }
+  .gopro-wrap .maxbutton-start-converting {
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    border-color: #505ac7;
+    box-shadow-color: #333;
+    width: 260px;
+    height: 66px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-style: solid;
+    border-width: 0px;
+    background-color: #00c1a8; }
+    .gopro-wrap .maxbutton-start-converting .mb-text {
+      color: #fff;
+      font-family: Source Sans Pro;
+      font-size: 23px;
+      text-align: center;
+      font-style: normal;
+      font-weight: normal;
+      padding-top: 22px;
+      padding-right: 0px;
+      padding-bottom: 14px;
+      padding-left: 0px;
+      line-height: 1em;
+      box-sizing: border-box;
+      display: block;
+      background-color: unset;
+      position: relative; }

@@ -1,0 +1,70 @@
+.check_button.big + label  
+ {			
+ 			//border: 1px solid #aaa;
+ 			width: 60px;
+ 			height: 60px;
+ 			position: relative; 
+ 			margin-right: 10px;
+ 			
+ 			i {		
+
+				width: 30px; 
+				height: 30px;
+ 				line-height: 1; 
+ 				font-size: 30px; 
+ 				display: inline-block;
+	 			position: absolute; 
+	 			top: 50%; 
+	 			left: 50%;
+	 			margin: -15px 0 0 -15px; 
+	 			
+ 			}
+}
+
+.check_button.medium + label {
+	width: 40px;
+	height: 40px;
+	position: relative; 
+	margin-right: 5px;
+	
+	i {
+		width: 26px;
+		height: 26px;
+		line-height: 1; 
+		font-size: 23px;
+		display: inline-block;
+		position: absolute; 
+		top: 50%;
+		left: 50%; 
+		margin: -13px 0 0 -13px;
+	}
+}
+
+.check_button + label i{
+		&.border-radius { 	
+			border: 2px solid #000;
+		} 
+		&.round {
+			border-radius: 50%;  
+		}	
+		&.rounded {
+			border-radius: 25%;  			
+		}
+}
+
+.editor .border_style {
+	margin: 10px 0;
+}
+
+.input.icon {
+
+ 	.icon_container { 
+		display: inline-block;
+
+ 		
+ 		}
+	
+}
+
+
+

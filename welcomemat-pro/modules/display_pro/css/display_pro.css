@@ -1,0 +1,38 @@
+#mod-display .search_post_text, #mod-display .custom_searchpost, #mod-display .custom_selectedpost {
+  display: none;
+  width: 100%; }
+#mod-display .custom_searchpost .title, #mod-display .custom_selectedpost .title {
+  font-weight: 700;
+  font-size: 12px; }
+#mod-display .select_posts, #mod-display .selected_posts {
+  border: 1px solid #eee;
+  padding: 5px;
+  min-height: 25px;
+  margin-bottom: 10px;
+  display: inline-block;
+  clear: both;
+  width: 90%; }
+  #mod-display .select_posts li, #mod-display .selected_posts li {
+    position: relative; }
+    #mod-display .select_posts li.no-selection, #mod-display .selected_posts li.no-selection {
+      margin-left: 2px; }
+    #mod-display .select_posts li input, #mod-display .selected_posts li input {
+      display: none; }
+    #mod-display .select_posts li .detail, #mod-display .selected_posts li .detail {
+      color: #666666;
+      font-size: 11px;
+      position: absolute;
+      right: 5px;
+      text-transform: uppercase;
+      top: 5px; }
+    #mod-display .select_posts li label, #mod-display .selected_posts li label {
+      display: inline-block; }
+    #mod-display .select_posts li i, #mod-display .selected_posts li i {
+      margin-right: 5px; }
+#mod-display .select_posts {
+  display: inline-block;
+  max-height: 450px;
+  overflow-x: hidden;
+  overflow-y: auto; }
+
+/*# sourceMappingURL=display_pro.css.map */

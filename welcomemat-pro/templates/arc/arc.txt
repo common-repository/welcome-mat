@@ -1,0 +1,7 @@
+/*
+Name: Arc
+Author: MaxFoundry 
+Description: Mail list signup form
+Textdomain: maxinbound
+Version: 1.0
+*/

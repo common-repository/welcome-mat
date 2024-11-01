@@ -1,0 +1,28 @@
+/* Metabox standard layout for the right-hand side of the edit screen */ 
+
+.postbox .inside {
+
+	@import "mixins";
+	@import "fields";
+
+	span {
+		display: block;
+	}
+
+	.input {
+		label {
+			padding: 0 0 5px 0;
+			display: inline-block;
+		}
+		width: 100%;
+		line-height: 15px;
+		min-height: auto;
+		margin: 5px 0;
+	}
+	
+	input[type="text"], input[type="number"] {
+		width: auto;
+	}
+ 
+
+}

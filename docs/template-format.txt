@@ -1,0 +1,11 @@
+<fields>
+<part name="name"> 
+	<field_name editor="text" title="title">
+		<editor type="type" name='name_fieldname' title="" />
+		<field type="type" name="name_fieldname" title="" /> 
+	</main_heading>  
+ 
+	<field_name editor="field" title="Title" /> 
+	
+</part>
+</fields>

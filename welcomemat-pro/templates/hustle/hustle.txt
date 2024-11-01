@@ -1,0 +1,9 @@
+/*
+Name: Hustle
+Author: MaxFoundry 
+Description: 
+Textdomain: maxinbound
+Template: welcomemat-standard
+Version: 1.0
+
+*/

@@ -1,0 +1,26 @@
+
+
+
+#maxinbound {
+
+	//margin-top: -50px; 
+
+	
+	@import "mixins";
+	@import "general"; // general admin
+	@import "maxmodal"; // modals
+	@import "subtabs";  // tabs
+	@import "editor";  // for the editor
+	@import "panel";  // for panel ( not active )
+	@import "fields"; // for fields and specific fields 
+	@import "modules";  // possibly on it's way out
+	@import "settings"; // settings screen
+	@import "settings_sections"; // specific section in settings 
+	@import "preview"; 
+	@import "picker"; 
+}
+
+
+/* Outside loading elements. */
+	@import "metabox"; // for metabox
+	@import "template-overview"; 

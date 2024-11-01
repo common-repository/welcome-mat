@@ -1,0 +1,50 @@
+#mod-display
+{
+	.options { 
+		display: inline-block; 
+		
+		span.input
+		{
+			float: left;
+			clear: left;
+			display: block;
+			margin-bottom: 5px;
+		}
+		.interval { 
+			margin-left: 30px; 
+			display: inline-block;
+			}
+			span { 
+				//margin: 8px 0;
+				
+				
+				label {
+					padding: 5px 0;
+				}
+		}
+			
+	}
+	.interval_options {
+		margin-left: 50px; 
+		display: inline-block;
+		float: right;
+		
+		span { 
+			clear: left; 
+			display: block;
+			margin-top: 3px;
+			input { margin-right: 10px; } 
+		}
+	}
+	
+	.input.hide_mobile { 
+		label:not(.switch_label) { 
+			float: left; 
+			margin-right: 15px;
+			
+		}
+		
+	}
+	
+	input.tiny { width: 65px; } 
+}

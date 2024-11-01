@@ -1,0 +1,27 @@
+#mod-display .options {
+  display: inline-block; }
+  #mod-display .options span.input {
+    float: left;
+    clear: left;
+    display: block;
+    margin-bottom: 5px; }
+  #mod-display .options .interval {
+    margin-left: 30px;
+    display: inline-block; }
+  #mod-display .options span label {
+    padding: 5px 0; }
+#mod-display .interval_options {
+  margin-left: 50px;
+  display: inline-block;
+  float: right; }
+  #mod-display .interval_options span {
+    clear: left;
+    display: block;
+    margin-top: 3px; }
+    #mod-display .interval_options span input {
+      margin-right: 10px; }
+#mod-display .input.hide_mobile label:not(.switch_label) {
+  float: left;
+  margin-right: 15px; }
+#mod-display input.tiny {
+  width: 65px; }

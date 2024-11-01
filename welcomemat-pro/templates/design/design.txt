@@ -1,0 +1,8 @@
+/*
+Name: Design
+Author: MaxFoundry 
+Description: Call to Action
+Textdomain: maxinbound
+Version: 1.0
+Template: call-to-action-standard
+*/

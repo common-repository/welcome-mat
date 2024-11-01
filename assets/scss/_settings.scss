@@ -1,0 +1,97 @@
+.option-container {
+	&.mb_tab { display: none; } 
+	
+	//background: #fff;
+	border: 0;
+	
+	.inside {
+
+	}
+}
+
+.section { 
+	margin-bottom: 15px;
+	display: block;
+	padding: 5px 15px 15px 15px;
+	background: #fff; 
+	box-sizing: border-box;
+	clear: both;			
+	position: relative;
+
+	h4 { 
+		font-size: 16px;
+		border-bottom: 1px solid #ccc;
+		width: 80%;
+		padding-bottom: 5px;
+	}
+
+	.status, .update { 
+		display: inline-block;
+		padding: 10px 0;
+		//border:1px solid #ccc; 
+		margin-left: 250px;
+		min-width: 200px; 
+ 
+		&.red { color: #ff0000; font-weight:700; } 
+		&.orange { color: #f49200; font-weight: 700; } 
+		&.green { color: #0a751a; }
+			
+		&.active {
+			color: #0a751a; 
+			border-color: #000;
+		}
+	}
+	.update.error {
+		background: #ff0000;
+		color: #fff; 		
+		font-weight: 700;
+	}
+	
+	.help_info { 
+		position: absolute; 
+		right: 5px; 
+		//border: 1px solid #ccc; 
+		padding: 1%; 
+		width: 18%;
+
+	
+	}
+}
+
+// Found in template options ( and settings ) 
+.option-row {
+	clear: both; 
+	display: block;
+	margin: 10px 0;
+	min-height: 35px;
+
+	li { 
+		height: inherit;
+		display: inline-block;
+	}
+	
+	> li > label:first-child {  // first left-most el.
+	//	position: relative; 
+
+		height: inherit; 
+		vertical-align: top;
+			
+		span {
+			font-weight: 700;
+			float: left;	
+			position: absolute; 
+		
+			height: inherit; 
+			width: 250px;
+			line-height: 35px;
+				
+		}
+		input, select,textarea,  + label{ 
+	//		margin-left: 55px;
+		margin-left: 250px;
+			//padding: 0; 
+		}
+		
+	}
+	
+} // option-row

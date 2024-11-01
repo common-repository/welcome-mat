@@ -1,0 +1,70 @@
+
+@import "field_image"; 
+@import "field_colorpicker"; 
+@import "field_checkbox"; 
+@import "field_spacer"; 
+@import "field_font"; 
+@import "field_icon"; 
+
+.input { 
+	display: inline-block;
+	//float: left;
+	min-height: 35px;
+	min-width: 35px;
+	line-height: 35px;
+	font-family: inherit; 
+}
+
+ .input.text {
+	
+	margin-top: 3px;
+	clear: right; 
+	label {
+		clear: left;
+		display: inline-block;
+		line-height: 30px; 
+		margin-right: 25px;
+		width: 75px;
+	}
+	&:after { clear: right; display: block; height: 0; content: '';  } 
+}	
+
+input, select, button {
+ 
+	height: 35px;
+	line-height: 35px;  
+	margin: 0; 
+}
+
+input[type="text"], input[type="number"]
+{
+	width: 450px; 
+	padding: 8px;
+
+	
+	&.tiny { 
+		width: 50px; 
+	}
+	&.medium { 
+		width: 100px; 
+	}
+	&.large {
+		width: 50%; 
+	}
+}
+
+input[type="radio"], input[type="checkbox"]
+{
+	width: 16px;
+	height: 16px;
+}
+
+ input[type="number"] { padding-right: 1px; } 
+
+.unit { 
+	margin-left: 2px;
+	margin-right: 5px; 
+
+}
+
+

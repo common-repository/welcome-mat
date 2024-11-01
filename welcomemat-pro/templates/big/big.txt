@@ -1,0 +1,8 @@
+/*
+Name: Big
+Author: MaxFoundry 
+Description: Email Acquire Mat
+Textdomain: maxinbound
+Version: 1.0
+Template: welcomemat-standard
+*/

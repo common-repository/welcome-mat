@@ -1,0 +1,83 @@
+
+@import "fullscreen";
+
+$font-family: "Roboto"; 
+
+.mib {
+
+	.background { 
+		background-color: #fff; 
+		background-image: none;
+	}
+
+	.mainheading{
+	  font-size: 70px;
+	  font-family: $font-family;  
+	  color: #000000;
+	  font-weight: 700;
+	  text-align: center;
+	  margin-bottom: 0.5em;
+	}
+
+	.subheading{
+	  font-size: 26px;
+	  font-family: $font-family;  
+	  color: #000000;
+	  text-align: center;
+	  margin-bottom: 1.2em;
+	}
+
+	.subscription-form{
+	  max-width: 480px;
+	  margin: 0 auto;
+	}
+	.subscription-field{
+		margin-bottom: 1.2em;
+	}
+	.input {
+	  @include placeholder{ color: #696969; }
+	  margin-bottom: 0.5em;
+	  @include border-radius(5px,5px,5px,5px);
+	  border-color: #a0964e;
+	  font-family: $font-family;
+	}
+
+	button{
+	  font-family: $font-family;
+	  @include border-radius(5px,5px,5px,5px);
+	  height: 2.1em;
+	  		
+		&.button-agree{
+	 	 	background-color: #72AD53; 
+	  		color: #fff;    
+	  		font-family: $font-family;
+		}
+		&.button-agree:hover{
+			background-color: #57863F;
+			color: #fff;
+		}
+		&.button-disagree{
+			background-color:  #c3c5c5;
+			color: #fff;
+	  		font-family: $font-family;
+	  		float: right;
+		}
+		&.button-disagree:hover{  
+			background-color:  #a0a0a0;
+		}
+	}
+
+	.subscription-arrow .arrow_icon {
+		border-color: rgb(114, 173, 83);
+		color: rgb(114, 173, 83);
+		content: '\f347'; 
+
+	}
+
+	.after-submit
+	{
+		font-family: $font-family;
+		color: #000;
+	}
+	
+}

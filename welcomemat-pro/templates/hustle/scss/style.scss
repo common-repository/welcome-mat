@@ -1,0 +1,127 @@
+@import "fullscreen"; 
+
+.mib { 
+
+	$font-family: "Times New Roman";
+	.subscription { 
+		top: 45%;
+	
+	}
+
+	.background { 
+		left: 50%;
+		position:absolute; 
+		background-position: center 95%;
+		z-index: 500;
+		width: 50%;
+	}
+	.background-color { 
+		background-color: #151413;
+		width: 100%;
+		height: inherit;
+		position: absolute; 
+		left:0;
+		top:0;
+		bottom:0;
+		right: 0;
+	}
+	.mainheading{
+	  font-family: $font-family;
+	  font-size: 70px;
+	  font-style: italic;
+	  color: #d3a534;
+	  line-height: 0.9;
+	  margin-bottom: 15px;
+	  text-align: left;
+	}
+	.subheading{
+	  font-family: $font-family;
+	  font-size: 25px;
+	  color: #ffffff;
+	  line-height: 1.1;
+	  margin-bottom: 20px;
+	  text-align: left;
+	}
+	.subscription-inner{
+		display: table;
+		table-layout: fixed;
+		width: 100%;
+		height: 100%;
+	}
+	.subscription-col{
+		display: table-cell;
+		vertical-align: middle;
+		position: relative;
+		padding: 0 20px;
+
+	}
+	.subscription-inner:first-child{}
+	.subscription-inner:last-child{}	
+	.subscription-form{
+	  max-width: 460px;
+	  margin: 0 auto;
+	}
+
+
+	.subscription-field input{
+	  @include placeholder{ color: #696969; }
+	  font-family: $font-family;
+	  border-color: #aeaeae;
+	  height: 56px;
+	  line-height: 1.1;
+	  font-size: 21px;
+	  color: #000;
+	}
+
+	.subscription .button{
+	  color: #ffffff;
+
+	}
+	.subscription .button.button-agree{
+	  background-color: #d3a534;  
+	  font-size: 21px; 
+	  font-family: $font-family; 
+	}
+	.subscription .button.button-agree:hover{
+		background-color: #c89926;
+	}
+	.subscription .button.button-disagree{
+		background-color: #2e3639;
+		font-size: 21px;
+		font-family: $font-family;
+	}
+	.subscription .button.button-disagree:hover{  
+		background-color: #5f7279;
+	}
+	.subscription-arrow
+	{
+		right: 50%;
+		.arrow_icon { 
+			border-color: #fff;
+			color: #fff;
+			&:before { 
+				margin-top: 21px;
+			}
+		}
+	}
+
+	.after-submit 
+	{	
+		left: 15%;
+		right: 50%;
+		top: 45%;
+		transform: translate(-15%, -50%);
+		
+		.thank-you
+		{
+			color: #d3a534;
+		//	position: absolute; 
+			//top: 45%; 
+			//left: 15%; 
+		//	min-width: 50%;
+			font-size: 75px; 
+			font-family: $font-family;
+		}
+	}
+
+}

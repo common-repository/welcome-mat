@@ -1,0 +1,11 @@
+
+.font-editor {
+	.font, .style, .align {
+		display: inline-block;
+		position: relative;
+	}
+	.font { margin-right: 10px; }
+	.align:after { clear: both; } 
+
+
+}

@@ -1,0 +1,73 @@
+@import "fullscreen"; 
+.mib 
+{
+	$font-family: 'Roboto Slab'; 
+
+	.background {
+		opacity: 0.5;
+	}
+	.mainheading{
+	  font-family: $font-family;	  
+	  font-size: 70px;
+	  color: #000;
+	  text-align: center;
+	  margin-bottom: 20px;
+	}
+	.subheading{
+  	  font-family: $font-family;
+	  font-size: 28px;
+	  color: #696969;
+	  text-align: center;
+	  margin-bottom: 23px;
+	}
+	.subscription-form{
+	  max-width: 480px;
+	  margin: 0 auto;
+	}
+	.subscription-field input{
+	  border-style: solid;
+	  border-width: 1px;
+	  border-color: #9b9b81;
+	  background-color: #fff;
+	  outline: none;
+	  color: #000;
+	  font-family: "Times New Roman";
+
+	}
+
+	.subscription .button{
+	  font-family: "Times New Roman";
+	  color: #fff;
+	}
+
+	.subscription .button.button-agree{
+	  background-color: #f94d71;    
+	  color: #fff;
+	}
+	.subscription .button.button-agree:hover{
+		background-color: #cd405e;
+		color: #fff;
+	}
+	.subscription .button.button-disagree{
+		background-color: #2e3639;
+	}
+	.subscription .button.button-disagree:hover{  
+		background-color: #000;
+		color: #fff;
+	}
+
+	.subscription-arrow{
+
+	  .arrow_icon {
+        border-color: #f94d71; 
+	  	color: #f94d71;
+	  }	  
+	}
+
+	.after-submit
+	{
+		font-family: $font-family;
+		color: #000;
+	}
+
+}

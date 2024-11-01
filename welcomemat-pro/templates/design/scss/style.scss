@@ -1,0 +1,52 @@
+@import "fullscreen"; 
+
+.mib {
+	$font-family: 'Roboto Slab'; 
+	.background {		
+		background-image: url('../bg.png'); 
+	}
+	.mainheading{
+	  font-family: $font-family;
+	  font-size: 76px;
+	  color: #000;
+	  line-height: 1.029;
+	  text-align: center;
+	  margin-bottom: 40px;
+
+	}
+	.subscription { 
+		max-width: 640px;
+	}
+	.subheading{
+		font-size: 25px;
+		font-family: 'Roboto';
+		color: #000;
+		//line-height: 1.561;
+		text-align: center;
+		margin-bottom: 62px;
+	}
+
+	.subscription .button{
+		border: 0;
+
+		color: #fff;
+		text-align: center;
+
+		padding: 25px 75px;
+		font-family: "Roboto";
+	}
+
+	.subscription .button.button-agree{ 
+		background-color: #28a1dd;
+	}
+	.subscription .button.button-agree:hover{
+	  background-color: #2280af;
+	}
+	
+	.subscription-arrow .arrow_icon { 
+		color: #ccc; 
+		border-color: #ccc;
+	}
+
+
+}

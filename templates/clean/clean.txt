@@ -1,0 +1,8 @@
+/*
+Name: Clean
+Author: MaxFoundry 
+Description: Mail Acquisition Form
+Textdomain: maxinbound
+Version: 1.0
+Template: welcomemat-standard
+*/

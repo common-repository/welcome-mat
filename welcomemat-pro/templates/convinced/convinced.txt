@@ -1,0 +1,8 @@
+/*
+Name: Convinced
+Author: MaxFoundry 
+Description: Mail Acquire Mat
+Textdomain: maxinbound
+Version: 1.0
+Template: welcomemat-standard
+*/

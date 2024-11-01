@@ -1,0 +1,36 @@
+/* GENERAL MODULE LAYOUT ONLY */
+
+&.modules .overview
+{
+	width: 100%;
+
+	display: table;
+	//border: 1px solid #e5e5e5;
+	margin: 10px 0;
+	h2 {
+		background-color: none;
+
+	}
+	.row {
+		background-color: #fff;
+		display: table-row;
+		border-left: 1px solid #e5e5e5;
+		border-right: 1px solid #e5e5e5;
+
+		&.heading {
+			font-weight: 700;
+		    padding: 8px;
+		    span { 		    border-bottom: 1px solid #e1e1e1;
+ 			}
+		}
+
+		span {  // all cells
+			display: table-cell;
+			padding: 8px;
+			line-height: 2em;
+			vertical-align: middle;
+		}
+
+	}
+
+}

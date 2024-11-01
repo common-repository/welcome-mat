@@ -1,0 +1,117 @@
+@import "fullscreen";
+
+
+$font-family: "Roboto Slab";
+
+.mib {
+
+	.background
+	{
+		background-color: #000000;
+	}
+
+	.subscription {
+		max-width: 920px;
+
+	}
+	.mainheading{
+	  font-family: $font-family;
+	  font-size: 56px;
+	  color: #f7734f;
+	  line-height: 1.029;
+	  text-align: center;
+	  margin-bottom: 0.5em;
+	  font-weight: 700;
+	}
+
+	.subheading{
+	  font-family: $font-family;
+	  font-size: 26px;
+	  color: #fff;
+	  line-height: 1.561;
+	  text-align: center;
+	  margin-bottom: 1.4em;
+	  font-weight: 300;
+
+	}
+
+	.subscription-form{
+	  max-width: 420px;
+	  margin: 0 auto;
+
+	}
+	.subscription-field{
+		position:relative;
+	}
+
+	.field-split{
+		margin-bottom: 1em;
+	}
+
+	input {
+		height: 2.2em;
+		font-size: 21px;
+		width: 60%;
+		margin-bottom: 1em;
+		border: 0;
+	}
+
+	.input {
+		font-family: $font-family;
+		font-size: 21px;
+
+	}
+
+	button {
+		&.button-agree:hover{
+		  background-color: #dc6747;
+		}
+		&.button-agree{
+			background-color: #f7734f;
+			position: absolute;
+			right: 0;
+			top: 0;
+			width:40%;
+			font-size: 21px;
+			height: 2.2em;
+
+		}
+		&.button-disagree{
+			background-color: transparent;
+			text-decoration: underline;
+			color: #ffffff;
+			font-weight: 300;
+			width: auto;
+			height: auto;
+			line-height: normal;
+		}
+		.button-disagree:hover{
+			text-decoration: none;
+		}
+
+	}
+
+	.subscription .button {
+		font-family: "Roboto";
+	}
+
+	.text-center{
+		text-align: center;
+	}
+
+	.subscription-arrow .arrow_icon {
+		color: #fff;
+		border-color: #fff;
+		border-width: 2px;
+	}
+
+	.after-submit
+	{
+		font-family: $font-family;
+		font-size: 75px;
+		color: #f7734f;
+	}
+
+
+
+} // mib

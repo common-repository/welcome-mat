@@ -1,0 +1,99 @@
+
+.check_button
+{ 
+	display: none;
+	+ label{
+		background-position: center center; 
+		background-repeat: no-repeat; 
+		background-color: #fff;
+		display: inline-block; 
+		border: 1px solid #ddd;
+		font_weight: 700;
+		min-height:0;
+		margin: 0;
+		width: 33px;  // because of border
+		height: 33px; 
+		position: relative;
+	}
+	&.text + label { 
+		padding: 5px; 
+
+	}
+
+	&.icon + label i
+	{ 
+ 		//top: calc(50% - 12px);
+ 		//left: calc(50% - 10px);
+ 		//position: absolute; 
+ 		margin-top: -5px;
+ 		width: 100%; 
+ 		height: 100%;
+		line-height: 33px; 
+		vertical-align: middle; 
+		text-align: center; 
+		color: #545454;
+	}
+
+	&:checked + label { 
+ 	   	background: #ebebeb none repeat scroll 0 0;
+   		border-color: #999999;
+    	box-shadow: 0 2px 5px -3px rgba(0, 0, 0, 0.3) inset;
+		min-height:0;	
+		margin: 0;
+	} 
+
+}
+
+
+.switch_button 
+{
+	margin-left: -5px;
+		
+	label{
+		padding: 8px 5px; // this padding to make clicking more flexible ( bigger hitbox )
+		
+		&:focus {
+			outline: none;
+		}		
+	}
+	input { display: none; 
+		&:checked ~ .the_switch { background: #6fbeb5; } 
+		&:checked ~ .the_switch:after {
+		  left: 26px;
+		  background: #179588;
+		} 
+		&::disabled ~ .the_switch{
+		  background: #d5d5d5;
+		  pointer-events: none;
+		}
+		&:disabled ~ .the_switch:after { background: #bcbdbc; }
+	} 
+	.the_switch{ 
+	  position: relative;
+	  display: inline-block;
+	  height: 15px;
+	  width: 50px;
+	  background: #898989;
+	  border-radius: 100px;
+	  cursor: pointer;
+	  transition: all 0.3s ease;
+	  &:after {
+		  position: absolute;
+		  left: -2px;
+		  top: -3px;
+		  display: block;
+		  width: 24px;
+		  height: 24px;
+		  border-radius: 100px;
+		  background: #aaa;
+		  box-shadow: 0px 3px 3px rgba(0,0,0,0.05);
+		  content: '';
+		  transition: all 0.2s ease;
+		}
+		&:active:after { transform: scale(0.9, 0.85); } 
+		&:focus {
+			outline: none;
+		}
+	}
+
+}

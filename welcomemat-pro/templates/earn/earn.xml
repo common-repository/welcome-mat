@@ -1,0 +1,40 @@
+<fields>
+<part name="Template"> 
+	<main_heading editor="text" title="Main Heading">
+		<editor type="font" title="Font" /> 
+		<field type="color" title="Text Color" /> 
+	</main_heading>  
+	<sub_heading editor="text" title="Sub Heading" >
+		<editor type="font" title="Font" /> 
+		<field type="color" name="main_color" title="Text Color" /> 
+	</sub_heading> 
+	<subscription_field editor="text" title="Subscription Text Title"> 
+		<editor type="font" title="Font" /> 
+		<field type="color" name="subscription_color" title="Text Color" /> 		
+	</subscription_field> 
+	<input_email editor='text' scope='placeholder' title="Email Input Field" >
+		<editor type="font" title="Font" />
+	</input_email> 
+	<background editor="image" title="Background Image" />
+	<submit_button editor="text" title="Submit Button"> 
+			<editor type="font"  title="Font" /> 
+			<field type="color"  title="Text Color" /> 
+			<field type="color" name='submit_color_hover' title="Hover" options='pseudo=hover' /> 			
+			<field type="color" name='submit_button_background' scope='background-color' title="Background Color" /> 	
+			<field type="color" name="submit_button_background_hover" title="Hover Color" scope='background-color' options="pseudo=hover" /> 		
+	</submit_button>
+	<no_button editor="text" title="No, thanks Button"> 
+			<editor type="font" title="Font" /> 
+			<field type="color" title="Text Color" /> 
+			<field type="color" name='no_color_hover' title="Hover" options='pseudo=hover' /> 						
+			<field type="color" name='no_button_background' scope='background-color' title="Background Color" />
+			<field type="color" name="no_button_background_hover" scope="background-color" title="Background hover" options='pseudo=hover' />
+			
+	</no_button>
+	<arrow editor="icon" title="Arrow"  /> 
+	<thanks editor="text" title="After signup message">
+		 <editor type="font" title="Font" />
+		 <field type='color' title="Text Color" /> 
+	</thanks>
+</part> 
+</fields>

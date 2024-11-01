@@ -1,0 +1,8 @@
+/*
+Name: Learn
+Author: MaxFoundry 
+Description: Call to Action Template
+Textdomain: maxinbound
+Version: 1.0
+Template: call-to-action-standard
+*/

@@ -1,0 +1,45 @@
+.section.support {
+
+	ul { 
+		display: table;
+	
+		li {
+			display: table-row;
+
+			
+			span, label {
+				display: table-cell;
+				padding: 5px; 
+			}
+			label {
+				width: 20%;	
+				font-weight: 700;
+				vertical-align: middle;
+			}
+			span { 
+				width: 40%;
+				line-height: 2em; 
+			}
+			
+		}
+	}
+
+}
+
+.section.debug {
+	.log-entry {
+		display: table-row;
+		width: 90%;
+	
+		span {
+			display: table-cell;
+			margin-right: 5px;
+ 
+			
+			&.time {
+				min-width: 130px;
+			}
+		}
+	}
+
+}

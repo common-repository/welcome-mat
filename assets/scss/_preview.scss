@@ -1,0 +1,25 @@
+
+
+.mb-preview-window {
+	position: fixed; 
+	top: 40%; 
+	right: 20px; 
+	width: 30%; 
+	max-width: 45%; 
+	height: 300px; 
+	max-height: 90vh; 
+	background-color: rgba(255,255,255,0.7);
+	border: 1px solid #000; 
+	z-index: 500 !important;
+	overflow: hidden; 
+	display: none;
+	
+	.mb-preview-wrapper {
+		position: relative; 
+ 		display: inline-block;
+ 		//height: 100%;
+ 		width: 100%;
+ 		//margin: 20px 0;
+	}
+	
+}
